@@ -5,7 +5,10 @@ const Query = {
         return 'hello'
     },
     getMusic:async ()=>{
-        return await Data.find()
+	const data = await Data.aggregate([
+		{$limit:2}	
+	])
+        return data
     }
 }
 export default Query;
