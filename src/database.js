@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 mongoose
-    .connect(process.env.URI2, {
+    .connect(process.env.URI3, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
