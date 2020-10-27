@@ -3,7 +3,8 @@
 <img width="550" alt="portfolio_view" src="img/1.png">
 <img width="150" alt="portfolio_view" src="img/2.png">
 </div>
-
+<br>
+<br>
 Utilizando como Framework Express.js y Babel para transpilar código moderno de Javascript.
 
 Pasos:
